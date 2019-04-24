@@ -52,7 +52,7 @@ main{
     margin-left: 10px;
     margin-right: 10px;
 
-    height:1000px;
+
 }
 main a{
     color:black;
@@ -186,4 +186,13 @@ blockquote{
     padding-left: 15px;
     border-left: 0.25em solid #ccc;
     color: #999;
+}
+
+.misc-content{
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
