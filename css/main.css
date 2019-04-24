@@ -54,13 +54,14 @@ main{
 
     height:1000px;
 }
-
+main a{
+    color:black;
+}
 
 main article{
     position: relative;
-    top:10px;
+
     margin-bottom: 10px;
-    height: 400px;
     width: 100%
 }
 .article {
@@ -127,4 +128,57 @@ footer{
 #page-title{
     margin-top: 20px;
 
+}
+/*//artistes*/
+
+#truc{
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+}
+#truc h1{
+    margin: 20px 0px 8px;
+}
+
+.post-date{
+    display: block;
+    margin-bottom: 1rem;
+    color: #9a9a9a;
+    font-size: 0.8rem;
+}
+
+.featured-image{
+
+}
+.featured-image img{
+    max-width: 600px;
+}
+article p {
+    line-height: 1.65;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.related{
+
+}
+.related-post{
+    list-style: none;
+    display: inline-block;
+}
+.related-thumbnail{
+    position: relative;
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+}
+.related img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600;
+}
+.related-title{
+    float: right;
+    font-size: 20px;
 }
