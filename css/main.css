@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: "Roboto", sans-serif;
+
+
+}
+.navbar{
+    top: 0;
+    position: fixed;
+    display: flex;
+    background-color: white;
+    height: 56px;
+    width: 1100px;
+    box-shadow: 0 5px 6px -6px #bbb;
+    z-index: 100;
+    max-width: 1060px;
+    margin-bottom: 10px;
+
+
+}
+
+#titre{  
+    font-size: 26px;
+    font-weight: 400;
+    box-sizing: border-box;
+    height: 20px;
+
+    margin-left:0;
+    
+}
+#artistes{
+    margin-left: 400px;
+
+    
+}
+.navbarItem{
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    line-height: 56px;
+
+
+}
+/* main */
+main{
+
+    padding-top: 56px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    height:1000px;
+}
+
+
+main article{
+    position: relative;
+    top:10px;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 100%
+}
+.article {
+    height: 400px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+  
+.article h2 {
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    position: absolute; }
+  
+.article h2 span {
+    display: inline-block;
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: black;
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; }
+  
+.article span a {
+    color: white; }
+  
+.article h1 {
+    margin: 10px; }
+
+.pagination{
+    text-align: center;
+}
+.pagination-button{
+   
+        color: #999;
+        border: 1px solid #e0e0e0;
+        padding: 15px 45px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+    
+}
+footer{
+    text-align: center;
+    line-height: 45px;
+    width: 1100px;
+    font-size: 0.8rem;
+}
+.light-button{
+    height: 5px;
+    background-color: white;
+    padding: 0;
+    border: none;
+    
+}
+
+/*//pages */
+
+#page-title{
+    margin-top: 20px;
+
+}
